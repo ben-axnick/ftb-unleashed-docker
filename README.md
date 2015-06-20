@@ -1,14 +1,14 @@
-# minecraft-empire
+# FTB Unleashed Docker
 
 Docker container for an FTB Unleashed server
 
-# Deploying
+## Deploying
 
 1. Check out the repo
 2. `make run TAG=foo`
-3. Ensure 25565 forwarded
+3. Ensure 25565 in your SG
 
-# Future
+## Future
 
 CoreOS / Flocker ???
 

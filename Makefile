@@ -1,4 +1,4 @@
-NAME = bentheax/minecraft-empire
+NAME = bentheax/ftb-unleashed
 TAG ?= latest
 PROJECT = $(NAME):$(TAG)
 WORLD_STORE ?= $$(pwd)
