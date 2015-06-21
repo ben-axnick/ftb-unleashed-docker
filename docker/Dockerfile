@@ -8,6 +8,7 @@ RUN unzip *.zip -d /opt/unleashed
 WORKDIR /opt/unleashed
 RUN rm -Rf /tmp/unleashed
 RUN find mods | rename 's/PowerConverters(.*)\.disabled/PowerConverters$1/g'
+ADD server_files .
 
 EXPOSE 25565
 CMD ["sh", "ServerStart.sh"]
